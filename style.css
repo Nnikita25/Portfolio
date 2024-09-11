@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* NAVBAR STARTS */
+nav{
+    /* background-color: cadetblue; */
+}
+/* COL1 */
+.logo a{
+    font-size: 40px;
+    font-family:cursive;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+/* COL-2 */
+.nav-bar ul{
+    text-align: right;
+}
+.nav-bar ul li{
+    display: inline-block;
+    list-style: none;
+    /* border: 1px solid red; */
+    /* text-align: left; */
+    margin: 0 12px;
+}
+.nav-bar ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    transition: .25s;
+}
+#one{
+    color: blue;
+}
+.nav-bar ul li a:hover{
+    color: blue;
+}
+/* SECTION-1 */
+#sec1{
+    background-color: #f5f5ff;
+}
+#sec1 .container{
+    padding: 10rem 4rem;
+}
+#sec1 .intro1{
+    font-size: 17px;
+    letter-spacing: 3px;
+    color: rgba(128, 128, 128, 0.9);
+    font-weight: 500;
+}
+#sec1 .intro2{
+    font-size: 3rem;
+    font-weight: 700;
+}
+#sec1 .intro3{
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: rgba(128, 128, 128, 0.9);
+}
+#sec1 .intro a{
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.707);
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: .25s;
+}
+#sec1 a:hover{
+    background-color: rgb(0, 0, 255);
+}
+.intro-img img{
+    width: 800px;
+    margin-top: -80px;
+}
+
+
+/* SECTION-2 */
+#sec2 .container{
+padding: 10rem 4rem;
+}
+#sec2 .intro-img img{
+    width: 450px;
+    box-shadow: 0px 0px 4px black;
+    /* margin-left: -63px; */
+}
+#sec2 .intro1{
+    color: grey;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+#sec2 .intro2{
+    color: solid black;
+    font-size: 40px;
+    font-weight: 900;
+    text-decoration: solid;
+    text-transform: uppercase;
+    margin: 2rem 0;
+}
+#sec2 .intro3{
+    color: grey;
+    margin: 15px 0 30px 0;
+}
+#sec2 .intro a{
+    color: white;
+    background-color: rgba(0, 0, 255, 0.707);
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    text-transform: uppercase;    
+}
+#sec2 .intro a:hover{
+    background-color: blue;
+}
+#sec3 .container{
+    text-align: center;
+}
+#sec3 .cont-img{
+    margin: 30px 0;
+
+}
+
+#sec3 .proj-head h2{
+    color: solid black;
+    font-size: 35px;
+    font-weight: 800;
+    text-decoration: solid;
+}
+#sec3 .proj-head p{
+    color: grey;
+    margin: 1rem 0;
+}
+#sec3 .image img{
+    /* height: 50%; */
+    width: 100%;
+    
+}
+
+footer{
+    background-color: #04091e;
+    padding: 140px 0;
+    margin-top: 80px;
+}
+footer h4{
+    color: #f5f5ff;
+}
+.foot-news span i{
+    background-color: blue;
+    color: white;
+    padding: 15px 15px;
+    font-size: 18px;
+    margin-left: -50px;
+    cursor: pointer;
+}
+
+.foot-news input{
+    width: 96%;
+    padding: 10px;
+}
+
+footer p{
+    color: grey;
+    margin: 30px 0;
+} 
+footer .icon{
+    list-style: none;
+    margin-left: -25px;
+}
+footer .icon li{
+    display: inline-block;
+    padding:  2px 5px;
+    font-size: 18px;
+}
+footer .icon a{
+    text-decoration: none;
+    color: white;
+}
+
+
+ 
+
+@media (max-width: 992px) {
+    #sec1 .container{
+        margin: 0;
+        padding: 9rem!important;
+    }
+
+    .intro-img img{
+        width: 400px;
+        margin-top: 0px;
+    }    
+    #sec2 .container{
+        margin: 0;
+        padding: 9rem!important;
+    }
+    #sec2 .intro{
+        margin: 2rem 0!important;
+    }    
+}
+@media (max-width: 770px) {
+    #sec1 .container{
+        margin: 0;
+        padding: 1rem!important;
+    }
+
+    .intro-img img{
+        width: 400px;
+        margin-top: 0px;
+    }    
+    #sec2 .container{
+        margin: 0;
+        padding: 1rem!important;
+    }
+    #sec2 .intro{
+        margin: 2rem 0!important;
+    }    
+}
+@media (max-width: 350px) {
+    #sec1 .container{
+        margin: 0;
+        padding: 1rem!important;
+    }
+    .intro-img img{
+        width: 230px;
+        margin-top: 10px;
+    } 
+    #sec2 .container{
+        margin: 0;
+        padding: 1rem!important;
+    }
+    #sec2 .intro{
+        margin: 2rem 0!important;
+    }      
+}
